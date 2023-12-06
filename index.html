@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Clicker Game</title>
+</head>
+<body>
+    <!-- Container principal -->
+    <div class="container">
+        <!-- Título do jogo -->
+        <h1>Clicker Game</h1>
+        <!-- Pontuação atual do jogador -->
+        <p id="score">Pontuação: <span id="points">0</span></p>
+        <!-- Botão para o jogador clicar -->
+        <button id="clickBtn" onclick="increaseScore()">Clique Aqui</button>
+        <!-- Informações sobre a atualização (upgrade) -->
+        <p id="upgrade">Atualização: <span id="upgradeCount">0</span></p>
+        <!-- Botão para comprar upgrades -->
+        <button id="upgradeBtn" onclick="buyUpgrade()">Comprar Atualização</button>
+    </div>
+    <!-- Script JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
